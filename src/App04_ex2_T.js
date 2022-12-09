@@ -19,6 +19,7 @@ class App extends Component{
             {id:5, name:"우동"}
         ];
        
+        //data를 이용해서 UI를 만들어내기 (만들어낸 UI는 배열에 저장된 상태로 return된다.)
         const newArray=menu.map((item)=>{
             //item 은 {id:x, name:x} 형태의 object 이다.
             return <label key={item.id}><input type="checkbox" onChange={(e)=>{
