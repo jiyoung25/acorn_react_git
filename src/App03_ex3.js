@@ -1,7 +1,8 @@
 //App03_ex3.js
 
 import FriendComponent from "./components/FriendComponent";
-import { Component } from "react";
+import { Component } from "react"; //중괄호는 여러개를 작성할 수 있다
+                                   //ex: import {Component, xxx, xxx} from "react"하면 react로부터 3가지 import한다는 뜻이다.
 
 class App extends Component{
     state={

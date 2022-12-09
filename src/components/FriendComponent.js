@@ -31,4 +31,4 @@ class FriendComponent extends Component{
     }
 }
 
-export default FriendComponent;
+export default FriendComponent; //중요! 이 component를 import하면 FriendComponent(이 파일에서의 class)를 사용한다고 선언하는거임!
